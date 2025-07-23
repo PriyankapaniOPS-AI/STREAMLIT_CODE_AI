@@ -62,5 +62,5 @@ elephant_gray_np = np.array(elephant_gray)
 # Plot using matplotlib with colormap
 fig, ax = plt.subplots(figsize=(6, 4))
 im = ax.imshow(elephant_gray_np, cmap=colormap)
-#plt.axis("off")
+plt.axis("off")
 
